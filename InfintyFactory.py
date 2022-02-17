@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 import random
+# hi
 class factory_tile(Canvas):
     def __init__(self, master, floor, x, y):
         Canvas.__init__(self, master, bg='grey', height = 25, width = 25)
@@ -39,7 +40,7 @@ class factory_grid():
     def floorUp(self):
         global floor, money
         if floor + 1 >= len(self.floorPlan):
-            if money >= 1000 * (floor+1)^2
+            if money >= 1000 * (floor+1)^2:
                 money = money - 1000 * (floor+1)^2
                 self.createNewFloor()
                 floor + 1
